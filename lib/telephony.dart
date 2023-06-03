@@ -561,6 +561,7 @@ class Telephony {
 /// Represents a message returned by one of the query functions such as
 /// [getInboxSms], [getSentSms], [getDraftSms]
 class SmsMessage {
+  String? name;
   int? id;
   String? address;
   String? body;
